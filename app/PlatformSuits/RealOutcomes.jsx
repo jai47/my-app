@@ -28,8 +28,8 @@ const solutions = [
 
 const RealOutcomes = () => {
     return (
-        <section className="bg-black text-white px-6">
-            <div className="max-w-7xl mx-auto text-center mb-20">
+        <section className="w-full flex flex-col justify-center items-center bg-[#0D0D0D] text-white">
+            <div className="max-w-7xl mx-auto text-center mb-20 pt-20">
                 <h2 className="text-4xl md:text-5xl font-semibold mb-4">
                     Solutions That Drive Real Outcomes
                 </h2>
@@ -38,7 +38,7 @@ const RealOutcomes = () => {
                 </p>
             </div>
 
-            <div className="w-screen">
+            <div className="w-[90%]">
                 {solutions.map((item, index) => (
                     <div
                         key={index}

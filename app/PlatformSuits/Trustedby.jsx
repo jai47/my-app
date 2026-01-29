@@ -5,32 +5,32 @@ import { useRef } from 'react';
 
 const cards = [
     {
-        title: 'Sovereign AI',
+        title: 'Healthcare',
         desc: 'it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
         img: '/assets/dealing.png',
         cta: 'Explore Platform',
     },
     {
         title: 'Cloud Orbiter',
-        desc: 'Unified cloud orchestration across hybrid and edge environments.',
+        desc: 'it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
         img: '/assets/south-asian-healthcare.png',
         cta: 'Explore Platform',
     },
     {
         title: 'Cirrus Cloud Platform',
-        desc: 'Highly scalable sovereign cloud platform for enterprises.',
+        desc: 'it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
         img: '/assets/low-angle-view-capital-against-sky.png',
         cta: 'Explore Platform',
     },
     {
         title: 'Kubernetes Platform',
-        desc: 'Enterprise-grade Kubernetes with full lifecycle automation.',
+        desc: 'it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
         img: '/assets/server-room-laptop-technician.png',
         cta: 'Explore Platform',
     },
     {
         title: 'Cloud Analytics',
-        desc: 'Real-time monitoring, metrics, and AI-powered insights.',
+        desc: 'it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
         img: '/assets/graph.png',
         cta: 'Explore Platform',
     },
@@ -74,7 +74,7 @@ export default function Trustedby() {
                                 src={card.img}
                                 alt={card.title}
                                 fill
-                                className="object-cover transition-all duration-700 group-hover:scale-110 group-hover:blur-[2px]"
+                                className="object-cover transition-all duration-700 group-hover:scale-110 group-hover:blur-[6px]"
                             />
 
                             {/* Overlay Gradient that darkens on hover */}
@@ -83,7 +83,7 @@ export default function Trustedby() {
                             {/* Content Wrapper */}
                             <div className="relative h-full w-full p-8 flex flex-col justify-end overflow-hidden">
                                 {/* Title - Anchored to bottom, slides up as group is hovered */}
-                                <h3 className="text-xl font-bold text-white transition-transform duration-500 ease-in-out group-hover:-translate-y-2">
+                                <h3 className="text-2xl font-bold text-white transition-transform duration-500 ease-in-out group-hover:-translate-y-[200px]">
                                     {card.title}
                                 </h3>
 
@@ -93,12 +93,6 @@ export default function Trustedby() {
                                         <p className="mt-4 text-[17px] text-gray-200 leading-relaxed font-light">
                                             {card.desc}
                                         </p>
-                                    )}
-
-                                    {card.cta && (
-                                        <button className="mt-6 inline-block rounded-md bg-[#0095B6] px-6 py-2.5 text-sm font-semibold text-white hover:bg-cyan-500 transition-colors">
-                                            {card.cta}
-                                        </button>
                                     )}
                                 </div>
                             </div>
@@ -111,13 +105,13 @@ export default function Trustedby() {
             <div className="mt-6 flex justify-center gap-4">
                 <button
                     onClick={() => scroll('left')}
-                    className="h-10 w-20 rounded-full border border-white/10 flex items-center justify-center hover:bg-white/5 transition active:scale-95"
+                    className="h-12 w-16 rounded-full text-md border border-white/20 hover:bg-white/10 transition"
                 >
                     <span className="text-xl">←</span>
                 </button>
                 <button
                     onClick={() => scroll('right')}
-                    className="h-10 w-20 rounded-full border border-white/10 flex items-center justify-center hover:bg-white/5 transition active:scale-95"
+                    className="h-12 w-16 rounded-full text-md border border-white/20 hover:bg-white/10 transition"
                 >
                     <span className="text-xl">→</span>
                 </button>

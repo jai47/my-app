@@ -16,8 +16,8 @@ const Header = () => {
     ];
 
     return (
-        <nav className="fixed w-full z-50 top-0 start-0 bg-black/80 backdrop-blur-md border-b border-white/10">
-            <div className="max-w-[1440px] mx-auto flex justify-between items-center p-4">
+        <nav className="w-full z-50 backdrop-blur-md overflow-x-hidden">
+            <div className="max-w-[1440px] mx-auto flex justify-between items-center px-6 lg:px-24 py-4">
                 {/* Logo Section */}
                 <div className="flex items-center gap-2 shrink-0">
                     <Image
