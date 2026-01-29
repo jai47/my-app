@@ -68,7 +68,7 @@ export default function PlatformSuite() {
                         <div
                             key={i}
                             className="group relative
-        w-[300px] hover:w-[420px]
+w-[320px] group-hover:scale-[1.12]
         h-[460px]
         flex-shrink-0
         rounded-2xl overflow-hidden
